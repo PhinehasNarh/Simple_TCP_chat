@@ -1,50 +1,51 @@
-# TCP Chat System
+### TCP Chat System
+Welcome to my TCP Chat System! This is a simple chat app built in Python using basic TCP/IP and sockets. The chat window has a basic GUI thanks to Tkinter, so you can see and send messages in real-time.
 
-This project is a simple TCP-based chat system implemented in Python. It consists of a chat server and a client that can connect to the server to send and receive messages in real-time. The client features a pop-up notification for incoming messages using `tkinter`.
+## What You Can Do
+Chat with multiple people simultaneously.
+See messages pop up in a simple window.
+Easy to run—just start the server, then the clients, and you're good to go!
 
-## Features
+## What You Need
+Python 3.x
+Just basic Python and some networking knowledge.
 
-- **Multi-Client Support**: The server can handle multiple clients simultaneously.
-- **Broadcasting**: Messages sent by a client are broadcast to all other connected clients.
-- **Pop-Up Notifications**: Clients receive incoming messages through a pop-up window.
-
-## Prerequisites
-
-- Python 3.x
-- `tkinter` library (usually comes pre-installed with Python)
-
-## Getting Started
-
-### 1. Clone the Repository
-
-
+## How to Get Started
+Clone This Repo
+First, grab a copy of the code:
 git clone https://github.com/PhinehasNarh/TCP-chat.git
+
 cd TCP-chat
 
-### 2. Run the Server
-The server script needs to be running before clients can connect to it.
+# Run the Server
+Fire up the server by running the following in your terminal:
+python server.py
+If everything's good, you'll see something like:
+Server started on 127.0.0.1:2222
 
-TCP chat server.py
-The server will start and listen for connections on 127.0.0.1 (localhost) and port 2222.
+# Run the Client
+Next, open up another terminal (or multiple if you want to simulate different users), and run:
 
-### 3. Run the Client
-You can run the client script on the same machine or on a different one that can connect to the server.
+python client.py
 
-TCP chat receiver.py
-Once connected, the client will prompt you to enter a message. When another client sends a message, it will be displayed in a pop-up window.
+A window will pop up asking for your username and chat room. After that, you're in!
 
-### 4. Sending Messages
-After the client connects to the server, you can type messages and press Enter to send them. To exit the chat, type exit and press Enter.
+# Chat Away!
+Type your message at the bottom of the chat window and hit Enter.
+Messages from others will show up in the chat area.
 
-## Code Overview
-# Server
-chatserver Class: Manages client connections, broadcasts messages, and handles communication.
-start() Method: Listens for incoming client connections and starts a new thread for each client.
+## Troubleshooting Tips
+Client can’t connect? Make sure the server is running and is listening on 127.0.0.1:2222.
+Socket error [WinError 10048]? This usually means the server’s already running on that port. Make sure it’s not running in another terminal or app.
+Not seeing messages? Check the terminals for any error messages. They’ll give you clues on what went wrong. Also, make sure your client and server scripts are talking to each other.
 
-# Client
-receive_messages() Function: Listens for incoming messages from the server and displays them in a pop-up window.
-show_popup() Function: Uses tkinter to display incoming messages in a pop-up dialog.
+## Limitations
+This is just a basic setup. If you’re thinking about using it for more users or heavier traffic, you might want to add more error handling or optimize the code.
 
+# Want to Contribute?
+If you have any ideas or improvements, feel free to fork this repo and submit a pull request. I’d love to see what you come up with!
 
-## Customization
-Feel free to fork this repository, make improvements, and submit a pull request. Contributions are welcome!
+# License
+This project is under the MIT License, so feel free to do whatever you like with it.
+
+Coded by: ph1n3y
