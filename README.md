@@ -30,7 +30,7 @@ python client.py
 
 A window will pop up asking for your username and chat room. After that, you're in!
 
-# Chat Away!
+# Chat Away
 Type your message at the bottom of the chat window and hit Enter.
 Messages from others will show up in the chat area.
 
