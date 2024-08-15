@@ -22,7 +22,7 @@ def send_message(event=None):
     if message:
         try:
             client_socket.send(message.encode('utf-8'))
-            print(f"Sent message: {message}")  # Debugging line
+            print(f"Sent message: {message}") 
             message_entry.delete(0, tk.END)
         except Exception as e:
             print(f"Error sending message: {e}")
