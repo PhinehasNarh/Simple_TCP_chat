@@ -28,7 +28,7 @@ Next, open up another terminal (or multiple if you want to simulate different us
 
 python client.py
 
-A window will pop up asking for your username and chat room. After that, you're in!
+A window will pop up asking for your username and chat room name. After that, you're in!
 
 # Chat Away
 Type your message at the bottom of the chat window and hit Enter.
