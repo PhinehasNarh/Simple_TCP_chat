@@ -32,6 +32,7 @@ A window will pop up asking for your username and chat room name. After that, yo
 
 # Chat Away
 Type your message at the bottom of the chat window and hit Enter.
+
 Messages from others will show up in the chat area.
 
 ## Troubleshooting Tips
