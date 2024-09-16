@@ -11,7 +11,7 @@ Python 3.x
 Just basic Python and some networking knowledge.
 
 # How to Get Started
-Clone This Repo
+Clone this Repo
 First, grab a copy of the code:
 git clone https://github.com/PhinehasNarh/TCP-chat.git
 
