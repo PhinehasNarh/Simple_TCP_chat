@@ -47,6 +47,6 @@ This is just a basic setup. If you’re thinking about using it for more users o
 If you have any ideas or improvements, feel free to fork this repo and submit a pull request. I’d love to see what you come up with!
 
 # License
-This project is under the MIT License, so feel free to do whatever you like with it.
+This project is under the MIT License.
 
 Coded by: ph1n3y
